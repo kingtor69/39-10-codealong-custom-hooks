@@ -1,7 +1,7 @@
 // create a state, starting true of falkse
 // toggle that state (state => !state)
 
-import React, {useState} from 'react';
+import {useState} from 'react';
 
 const useToggleState = (initialState=true) => {
     const [state, setState] = useState(initialState)
